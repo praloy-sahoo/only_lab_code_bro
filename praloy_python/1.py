@@ -1,6 +1,6 @@
 
-
-
+##1. Write a prime generator program using only primes and using python loops
+# praloy sahoo 0020501095
 # for num in range(2,n+1):
 #     is_prime = True
 #     for i in range(2,num):
