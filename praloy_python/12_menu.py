@@ -1,3 +1,15 @@
+# 12. Create a BankAccount class. Your class should support these methods:
+# deposit, withdraw, get_balance, change_pin. Create one SavingsAccount class
+# that behaves like a BankAccount class but also has an interest rate and a
+# method that increases the balance by the appropriate amount of interest.
+# Create another FeeSavingsAccount class that behaves just like a SavingsAccount
+# class but charges a fee every time you withdraw money. The fee should be set
+# in the constructor and deducted before each withdrawal.
+
+# Name: Praloy Sahoo
+# Roll No: 0020501095
+
+
 # -------------------------
 # Base Class
 # -------------------------

@@ -1,17 +1,21 @@
-#Write a discount coupon code using dictionary in Python with different rate coupons for
-# each day of the week.
+# Write a discount coupon code using dictionary in Python with different rate coupons for each day of the week.
+# Praloy Sahoo 0020501095
+
+
 coupons = {
     "monday": 10,
-    "tuesday":15,
-    "wednesday":20,
-    "thrusday":26,
-    "friday":30,
-    "saturday":35
+    "tuesday": 15,
+    "wednesday": 20,
+    "thursday": 25,
+    "friday": 30,
+    "saturday": 35,
+    "sunday": 40
 }
 
-day = input("which day is it").lower()
+day = input("Which day is it? ").lower()   # take day as input
 
+# check if the day exists in dictionary
 if day in coupons:
-    print(coupons[day])
+    print("Discount rate:", coupons[day], "%")
 else:
-    print("invalid day")    
+    print("Invalid day")

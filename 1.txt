@@ -1,0 +1,4 @@
+py -m pip install pytest
+py --version
+
+for running python 1.py

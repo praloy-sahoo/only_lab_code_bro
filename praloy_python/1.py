@@ -1,33 +1,26 @@
+## 1. Write a prime generator program using only primes and using python loops
+# Praloy Sahoo 0020501095
 
-##1. Write a prime generator program using only primes and using python loops
-# praloy sahoo 0020501095
-# for num in range(2,n+1):
-#     is_prime = True
-#     for i in range(2,num):
-#         if(num%i==0):
-#           is_prime = False
-#           break
-#     if(is_prime):
-#         print(num)
+n = int(input("Enter the number: "))   
+primes = []                            
+num = 2                               
 
-n = int(input("Enter the number: "))
-primes = []
-num = 2
-
+# keep generating numbers until we get n primes
 while len(primes) < n:
     is_prime = True
     
+    # check divisibility only with previously found primes
     for p in primes:
         if num % p == 0:
             is_prime = False
             break
     
+    # if prime, add to list
     if is_prime:        
         primes.append(num)
     
     num += 1           
 
+# print all generated primes
 for i in primes:
     print(i)
-
-   

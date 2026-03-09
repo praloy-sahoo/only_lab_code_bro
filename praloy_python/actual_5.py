@@ -1,3 +1,12 @@
+"""
+Name -> Praloy Sahoo
+Roll -> 002410501095
+
+24. Write a generator function to produce the Fibonacci sequence and print
+the first 7 Fibonacci numbers using next(). Also write a program to check
+whether a user-entered number is a Fibonacci number or not.
+"""
+
 # Part 1: Generator for Fibonacci
 
 def fibonacci():
